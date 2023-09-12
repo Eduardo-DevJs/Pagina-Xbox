@@ -1,0 +1,18 @@
+.introducao {
+  padding-top: 40px;
+}
+
+.titulo-introducao{
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.paragrafo-introducao{
+  text-align: center;
+  color: #9bf00b;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 10px;
+}

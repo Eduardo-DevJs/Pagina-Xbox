@@ -1,0 +1,28 @@
+.galeria{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.thumb {
+  position: relative;
+}
+
+.nome-jogo{
+  display: inline-block;
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+  left: 50px;
+}
+
+@media(max-width: 768px){
+  .galeria{
+    margin-top: 80px;
+    padding: 0px 15px;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+}
